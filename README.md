@@ -225,8 +225,8 @@ The commands available are :
        - size |n
        - print_all|n 
        - print_sort|n
-       - sum|n
-       - square|n
+       - sum|n order
+       - square|n 
        - diff|n:m order
        - sum_sq_d|n:m order
 
@@ -268,8 +268,8 @@ For providing commands through command line use following command:
       All the commands from q1a along with some other mentioned below:
       1. count_up n ( from 0 to 2n by 2)
       2. count_down n ( from n to 0 by 1 )
-      3. nth order   ( print the nth node according to the order (INSERTED OR SORTED))
-      4. remove_nth order ( remove the nth node according to the order(INSERTED OR SORTED))
+      3. nth n order   ( print the nth node according to the order (INSERTED OR SORTED))
+      4. remove_nth n order ( remove the nth node according to the order(INSERTED OR SORTED))
       
 
 ### For Solution of Question 2b
