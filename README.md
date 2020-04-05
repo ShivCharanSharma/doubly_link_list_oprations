@@ -342,14 +342,14 @@ For providing commands through command line use following command:
      Rest commands from q1a are same.
      
      The other available commands are:
-     - print_all mode
-     - print_sort mode
-     - sum mode
-     - fract mode
-     - whole_num mode
-     - rem_mixed mode
+     - print_all <*specify mode>
+     - print_sort <*specify mode>
+     - sum <*specify mode>
+     - fract <*specify mode>
+     - whole_num <*specify mode>
+     - rem_mixed <*specify mode>
      
-     where mode is the output mode for printing the fraction as SIMPLE or MIXED.
+     *where mode is the output mode for printing the fraction as SIMPLE or MIXED.
       
       eg. sum SIMPLE
 
