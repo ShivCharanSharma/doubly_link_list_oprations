@@ -1,5 +1,59 @@
 # doubly_link_list_oprations
 
+## Directory Structure
+
+### For solution1
+For solution of 1st question directory is:
+	
+	cd solution1/
+	
+It contains two folders:
+ 1. 1a
+ 2. 1b
+ 
+Folder **1a** contains the code for linked list functions and their testing with the user commands.
+It contains 2 files a4q1a_int.c and a4q1a_char_c which contains the integer and character linked list
+respectively, and two command files cmd1.txt and cmd2.txt for testing purpose.
+      
+Folder **1b** contains the code for linked list and function pointers with the user commands. It contains 
+a4q1b.c, sorted_list.c, sorted_list.h and cmd.txt for testing purpose.
+
+### For solution2
+For solution of 2nd question directory is:
+
+	solution2/
+	
+It contain two folders:
+ 1. 2a
+ 2. 2b
+ 
+Folder **2a** contain sorce code for question 2 Recusive functions and their test and commands.
+
+Folder **2b** contain sorce code for question 2 Greatest Common Divisor (GCD).
+
+The tail recursive implementation means that the recursive call statement must be the last
+statement of the function. The gcd function made in 2b program is also tail recursive. The
+reason is that the recursive statement **return gcd(b, a%b);** is the last statement execute
+by the function and after that the function is called again for the different values of a an
+b as calculated in the function. Thus, the implementation of gcd is tail recursive.
+
+### For solution3
+For solution of 3rd question directory is :
+
+	solution3/
+	
+It contain source code for question 3 ADT Fraction and its related functions and filter functions.
+
+In solution3
+	
+	• a4q3.c contain source code for commands and test for question 3 functions and ADT Fraction.
+	• a.c contain function definition of question 3 functions related to Fractions.And a.h is It’s 
+	corresponding header file.
+	• functions.c contain filter function with its recusive definition. It also contain map/reduce/etc 
+	functions . And function.h is it’s corresponding header file.
+	• sorted_list.c contain function related to Sorted List data type and its definition. sorted_list.h 
+	is it’s corresponding header files.
+
 ## Makefile
 
 ### Compile
