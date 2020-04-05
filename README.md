@@ -75,7 +75,7 @@ For Solution3 run following command after *make build*
 
 	make run_solution3
 
-### Clean
+# Clean
 
 To clean up the directories, run command
 
