@@ -18,7 +18,7 @@ in the directory structure as follows:
 ### For solution1
 For solution of 1st question directory is:
 	
-	cd solution1/
+	 solution1/
 	
 It contains two folders:
  1. 1a
@@ -96,24 +96,27 @@ To run program **a4q1a_char.c** run following in root directory of submission (w
 
 	make run_solution1a_char
 	
-For solution of Q1b (List ADT and function pointer) run following command after make build
+For solution of Q1b (List ADT and function pointer) run following command after make build, in root directory of submission (where Makefile is present)
+
 
 	make run_solution1b
 
 ## Question 2
 
-For Solution of Q2a (Recursive functions of questions 2) run following command after make build
+For Solution of Q2a (Recursive functions of questions 2) run following command after make build, in in root directory of submission (where Makefile is present)
+
 
 	make run_solution2a
 
-For Solution2b (GCD function of questions 2) run following command after make
-build
+For Solution2b (GCD function of questions 2) run following command after make build, in root directory of submission (where Makefile is present)
+
 
 	make run_solution2b
 
 ## Question 3
 
-For Solution3 run following command after make build
+For Solution3 run following command after make build, in root directory of submission (where Makefile is present)
+
 
 	make run_solution3
 

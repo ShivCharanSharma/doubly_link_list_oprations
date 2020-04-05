@@ -503,13 +503,26 @@ int main( int argc, char *argv[] )
 			cmd = strtok(NULL, " ");
 			sscanf(cmd, "%d", &m);
 			cmd = strtok(NULL, "\0");
-
+			value_type * arr_ptr;
 			printf("diff:       list1 = %d, list2 = %d", n, m);
 			if(strcmp(cmd, "SORTED_ORDER") == 0){
+				arr_ptr=diff(list[n],list[m],SORTED_ORDER);
+				if(arr_ptr != NULL){
 				print_array(diff(list[n],list[m],SORTED_ORDER),list[m]->size);
+				} else{
+                                        printf("Entered  lists are of different size");
+                                }
+
 			}
 			else if(strcmp(cmd, "INSERTED_ORDER") == 0){
+				arr_ptr=diff(list[n],list[m],INSERTED_ORDER);
+				if(arr_ptr !=NULL){
 				print_array(diff(list[n],list[m],INSERTED_ORDER),list[m]->size);
+				}
+				else{
+					printf("Entered  lists are of different size");
+				}
+
 			}
 	
 		}
