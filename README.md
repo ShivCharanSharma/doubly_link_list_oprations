@@ -1,5 +1,11 @@
 # doubly_link_list_oprations
 
+This project was implemented as college assignment.
+
+It contain libraries, implemented in C language, for performing different types of operation on linked lists.
+
+Description to use this project is as follows:
+
 ## Makefile
 
 ### Compile using Makefile
